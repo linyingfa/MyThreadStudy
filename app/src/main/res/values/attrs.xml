@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name ="LoadProgressBarWithNum" >
+        <attr name="progress_radius" format="dimension" />
+        <attr name="progress_strokeWidth" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_ring_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+        <attr name="progress_value" format="integer" />
+    </declare-styleable>
+</resources>

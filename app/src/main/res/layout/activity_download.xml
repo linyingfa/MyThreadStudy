@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <zhubaoseller.sunnsoft.com.mythreadstudy.com.zejian.handlerlooper.util.LoadProgressBarWithNum
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        customView:progress_radius="100dp"
+        customView:progress_strokeWidth="40dp"
+        customView:progress_text_size="35sp"
+        customView:progress_text_visibility="visible"
+        customView:progress_value="0" />
+
+    <Button
+        android:id="@+id/downloadBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="start download" />
+</RelativeLayout>
